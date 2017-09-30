@@ -8,27 +8,29 @@
 module.exports = {
 
   attributes: {
-    name:{
+    name: {
       type: 'string',
       required: true
     },
 
-    description:{
+    description: {
       type: 'string',
       required: true
     },
 
-    city:{
+    city: {
       type: 'string',
       required: true
     },
 
-    coordinates:{
-      type: 'string',
-      required: true
+    rating: {
+      type: 'float',
+      required: true,
+      max: 5,
+      min: 0
     },
 
-    imageurl:{
+    imageurl: {
       type: 'boolean',
       required: false
     },
