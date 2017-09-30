@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
-
+    sessionId:{
+      type : 'string',
+      required : true
+    }
   }
 };
 
