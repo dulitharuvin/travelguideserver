@@ -66,7 +66,7 @@ module.exports.connections = {
 
   mongodbProduction: {
     module: 'sails-mongo',
-    url: 'mongodb://heroku_szdhnrkd:heroku_szdhnrkd@ds155414.mlab.com:55414/heroku_szdhnrkd',
+    url: process.env.MONGODB_URI,
     schema: true
   }
 
