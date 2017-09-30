@@ -31,7 +31,7 @@ module.exports = {
     },
 
     imageurl: {
-      type: 'boolean',
+      type: 'string',
       required: false
     },
 
